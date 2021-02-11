@@ -46,8 +46,9 @@ mysql.createConnection({
         })
 
         // Méthode DELETE : Suppression d'un membre avec son ID
-        .delete((req, res) => {
-            
+        .delete(async (req, res) => {
+            let deleteMember = await Members.delete(req.params.id)
+            res.json(checkAndChange(deleteMember))
         })
 
     MembersRouter.route('/')
