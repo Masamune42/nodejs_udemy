@@ -9,7 +9,7 @@
     },
     "errors": {
         "wrongID": "Wrong id !",
-        "wrongmMaxValue": "Wrong max value !",
+        "wrongMaxValue": "Wrong max value !",
         "nameAlreadyTaken": "Name already taken !",
         "noNameValue": "No name value !",
         "sameName": "Same name !"
